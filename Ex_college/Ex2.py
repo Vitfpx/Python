@@ -1,3 +1,7 @@
+'''
+2. Same, testing whether it is less than, equal to or greater than zero.
+'''
+
 num = int(input("Digite qualquer número inteiro: "))
 if (num > 0):
     print("Seu número é maior que 0.")
