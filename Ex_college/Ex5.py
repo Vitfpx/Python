@@ -1,3 +1,7 @@
+'''
+5. Write a program that receives the distance in KM traveled by a car and the consumption in liters, then calculates the average consumption.
+'''
+
 km = float(input("Qual foi a distância percorrida: "))
 litros = float(input("Qual foi o consumo em litros: "))
 

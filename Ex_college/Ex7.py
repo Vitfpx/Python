@@ -1,3 +1,7 @@
+'''
+7. Write a program that presents a menu of options for choosing someone's favorite football team.
+'''
+
 print("=====================")
 print("   SELEÇÃO DE TIMES  ")
 print("=====================\n")

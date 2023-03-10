@@ -1,3 +1,7 @@
+'''
+4. Write a program that displays the number of days in a month chosen by the user.
+'''
+
 mes = (input("Escolha um mês do ano: "))
 
 if mes in ["janeiro", "março", "maio", "julho", "agosto", "outubro", "dezembro"]:

@@ -1,3 +1,7 @@
+'''
+
+'''
+
 m1 = float(input("Dê a primeira medida: "))
 m2 = float(input("Agora, a segunda medida: "))
 
