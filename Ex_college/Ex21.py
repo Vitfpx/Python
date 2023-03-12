@@ -6,4 +6,7 @@ num1 = int(input("Digite um número do seu teclado: "))
 num2 = int(input("Digite um número novamente: "))
 num3 = int(input("Digite o último número: "))
 
-print(f"A ordem inversa seria: {num3}, {num2}, {num1}.")
+num = num1, num2, num3
+reverso = list(reversed(num))
+
+print(f"A ordem inversa seria: {reverso}.")
