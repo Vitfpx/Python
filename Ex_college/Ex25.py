@@ -1,5 +1,5 @@
 '''
-25. Write a program that calculates the roots of passing the 2nd degree (ax² + bx + c); the values ​​of a, b, and c are user-supplied (see proposed resolution below).
+25. Write a program that calculates the roots of passing the 2nd degree (ax² + bx + c); the values of a, b, and c are user-supplied (see proposed resolution below).
 '''
 import math
 a = float(input("Digite o valor de a: "))
