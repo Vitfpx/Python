@@ -8,7 +8,7 @@ pi = 3.1415
 
 area = pi*r**2
 
-if r < 0:
+if r <= 0:
     print("O raio deve ser positivo!")
 else:
     print(f"A área do círculo seria {round(area, 2)}cm².")
