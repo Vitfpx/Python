@@ -58,3 +58,6 @@ def jogar():
     print(f"Pontos totais: {pontos}")
 
     print("Fim de jogo.")
+
+if __name__ == "__main__":
+    jogar()
