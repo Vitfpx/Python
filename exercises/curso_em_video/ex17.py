@@ -1,8 +1,7 @@
-from math import sqrt
+from math import hypot
 
-cateto_oposto = float(input("Comprimento do cateto oposto: "))
-cateto_adjacente = float(input("Comprimento do cateto adjacente: "))
+co = float(input("Comprimento do cateto oposto: "))
+ca = float(input("Comprimento do cateto adjacente: "))
+hi = hypot(co, ca)
 
-hipotenusa = sqrt((cateto_oposto ** 2) + (cateto_adjacente ** 2))
-
-print(f"A hipotenusa vai medir {round(hipotenusa, 2)}")
+print(f"A hipotenusa vai medir {round(hipothienusa, 2)}")
