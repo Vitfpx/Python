@@ -1,8 +1,9 @@
 def jogar():
     
-    print('********************************')
-    print("   Bem vindo ao jogo da forca   ")
-    print('********************************')
+    print(f'{"*" * 32}\n'
+          "   Bem vindo ao jogo da forca   "
+          f"\n{'*' * 32}"
+    )
 
     palavra_secreta = "Alexandria"
     letras_acertadas = ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_"]
