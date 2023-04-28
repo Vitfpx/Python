@@ -3,9 +3,12 @@ import adivinhacao
 
 def escolher_jogo():
 
-    print('********************************')
-    print("        Choice your game        ")
-    print('********************************')
+    msg_centralizada = "Choice your game".center(30, " ")
+
+    print(f"{'*' * 32}\n"
+          f'{msg_centralizada}\n'
+          f"{'*' * 32}"
+    )
 
     print("(1)Forca e (2)Adivinhação")
 

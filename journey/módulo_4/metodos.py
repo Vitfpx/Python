@@ -6,7 +6,7 @@
 # print("Texto centralizado".center(50, "*")) #50 seria o número de caracteres total, ou seja, só será preenchido com * o que estiver vazio
 # print("Avião?".index('ã'))
 # print("Alfanumérico".isnumeric())
-print("Teste de quebra de string com split".split(" "))
+# print("Teste de quebra de string com split".split(" "))
 # print("NOME;CIDADE;IDADE;PAÍS".split(";"))
 # print("Este é um título".title())
 # print("este é um título".capitalize())

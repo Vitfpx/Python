@@ -1,8 +1,10 @@
 def jogar():
-    
+
+    msg_centralizada = "Bem vindo ao jogo da forca".center(32, " ")
+
     print(f'{"*" * 32}\n'
-          "   Bem vindo ao jogo da forca   "
-          f"\n{'*' * 32}"
+          f"{msg_centralizada}\n"
+          f"{'*' * 32}"
     )
 
     palavra_secreta = "Alexandria"
