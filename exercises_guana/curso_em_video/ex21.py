@@ -1,6 +1,7 @@
-import pygame
-pygame.init()
-pygame.mixer.music.load("d:\Futuro\Linguagens\Python\exercises\curso_em_video\ssstik.io_1680814820175.mp3")
-pygame.mixer.music.play()
+import pygame as pg
+pg.init()
+pg.mixer.music.load("D:/Futuro/Linguagens/Python/exercises_guana/curso_em_video/music.mp3")
+pg.mixer.music.play()
 input()
-pygame.event.wait()
+pg.event.wait()
+pg.mixer.quit()

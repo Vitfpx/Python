@@ -4,4 +4,4 @@ co = float(input("Comprimento do cateto oposto: "))
 ca = float(input("Comprimento do cateto adjacente: "))
 hi = hypot(co, ca)
 
-print(f"A hipotenusa vai medir {round(hipothienusa, 2)}")
+print(f"A hipotenusa vai medir {round(hi, 2)}")

@@ -2,9 +2,9 @@ from random import randrange
 from time import sleep 
 
 print(
-    f'{"-=-" * 20}\n'
+    f'{"-=" * 30}\n'
     "Vou pensar em um número entre 0 e 5. Tente adivinhar...\n"
-    f'{"-=-" * 20}'
+    f'{"-=" * 30}'
 )
 
 chute = int(input("Em que número eu pensei? "))
@@ -19,5 +19,3 @@ if resultado:
     print(f"Parabéns! Você conseguiu me vencer, pensei exatamente no número {n}!")
 else:
     print(f"GANHEI! Eu pensei no número {n} e não no {chute}")
-
-#%%
