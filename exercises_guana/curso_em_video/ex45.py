@@ -1,7 +1,7 @@
 from time import sleep
 from random import choice
 
-print(f'''    
+print(f'''   
 {"-=" * 10}
       JOKENPO!!
 {"-=" * 10}'''
